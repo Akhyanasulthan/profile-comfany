@@ -1,0 +1,64 @@
+/* Section Backgrounds and General Styling */
+.koko {
+  background: url("a.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+/* Circle Styling */
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  color: #fff;
+  background-color: #dc3545;
+  text-align: center;
+}
+
+/* Icon Positioning inside Circle */
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+/* Image Cropping */
+.crop-img {
+  object-fit: cover;
+}
+
+/* Team Section Image Styling */
+.tim img {
+  width: 50px;
+  border: 10px solid #cccccc;
+}
+
+/* Social Media Icon Styling */
+.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* Client Section Image Styling */
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+/* Contact Section Background */
+.kontak {
+  background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #00d0ff;
+}
